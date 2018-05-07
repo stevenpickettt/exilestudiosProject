@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 943528a3dc6faf4459a51d37a4dd721d
+timeCreated: 1519652274
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Digital cognitive
+  fontNames:
+  - Digital cognitive
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
