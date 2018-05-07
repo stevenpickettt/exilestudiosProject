@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1840400870170234}
+  m_IsPrefabParent: 1
+--- !u!1 &1840400870170234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4074228861474290}
+  - component: {fileID: 114796192124349574}
+  - component: {fileID: 82256745594668844}
+  m_Layer: 0
+  m_Name: AudioController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4074228861474290
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1840400870170234}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.946655, y: 11.88446, z: 65.15333}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82256745594668844
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1840400870170234}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24301952, guid: 0ac7fb39e445048d89688f69c2a1839a,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 66.71099
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114796192124349574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1840400870170234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf03a2ab675263243a77c6da52cc626a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaveStartSounds:
+  - {fileID: 8300000, guid: ee3cb68c2157b9f4fa712d0d3e453418, type: 3}
+  - {fileID: 8300000, guid: 016c323a974d1294491cad9b797427a6, type: 3}
+  - {fileID: 8300000, guid: 8afc5bef733fc4545b0a9f657f942e72, type: 3}
+  SingleShotProjectile: {fileID: 8300000, guid: 5781c5a413b473d469e257e6038cea2c,
+    type: 3}
+  MultiShotProjectile: {fileID: 8300000, guid: d2563a07e59049346b28b066ec5bcdf0, type: 3}
+  ChronoWatchSFX: {fileID: 8300000, guid: 8221648e5c715a344b7c2c97f6588bb7, type: 3}
+  EmpDashSFX: {fileID: 8300000, guid: ebc5376e9b885ed439c11adff0ff5086, type: 3}
+  EmpExplosionSFX: {fileID: 8300000, guid: 8bfbb629f512c3e4fb86eedacb2e7b62, type: 3}
+  MeleeSFX: {fileID: 8300000, guid: fe26bea01d187b54ebd4531c76f2427b, type: 3}
+  NoAmmoSFX: {fileID: 8300000, guid: db1536ab526c4634b8143a460c7dd3e3, type: 3}
+  GrenadeLaucherSFX: {fileID: 8300000, guid: b65d40f57ecf82144835149620a93432, type: 3}
+  HealingTurretActiveSFX: {fileID: 8300000, guid: c5015b4cba5686643b186e8dc6784968,
+    type: 3}
+  ShootingTurretActiveSFX: {fileID: 8300000, guid: 6c06b0e06925cf444bda907dd2d8b5e6,
+    type: 3}
+  PickUpSFX: {fileID: 8300000, guid: 172263f8f4bb0a84bbbf2f41fe25712b, type: 3}
+  EnemyMeleeSFX: {fileID: 8300000, guid: dd0288dd7c4e6f844b16fe6d3cf722a1, type: 3}
+  EnemyExplosiveSFX: {fileID: 8300000, guid: c81ed6a4ae829974d9c9a0c72eeb6ed4, type: 3}
+  EnemyExoGuardAttackSFX: {fileID: 8300000, guid: 3ae810081e2dbd443b641862b7402f80,
+    type: 3}
+  EnemyDeathSFX: {fileID: 8300000, guid: 51d6cbaae60262c40a5109ebdbcfb745, type: 3}
+  EnemySpawnSFX: {fileID: 8300000, guid: b7ef23e837ba6b142adf9edbdcd1d667, type: 3}
+  EnemyEmpdSFX: {fileID: 8300000, guid: dfe026e96dcfbe648a32682ee0a82f4e, type: 3}
+  Boss1AttackSFX: {fileID: 0}
+  DeathIsImmentSFX: {fileID: 8300000, guid: cf4098fac3e2e7c45acee6a5bc692e63, type: 3}
+  TeleportSFX: {fileID: 8300000, guid: db7465866b1fb3d4cb6c0c5b718d7831, type: 3}
+  DeathSFX: {fileID: 8300000, guid: 3800d9607389c45b0a8673d3db98aded, type: 3}
+  Boss2LaserAttackSFX: {fileID: 8300000, guid: 476c9e909434541d9a0e665e934cd626, type: 3}
+  PowerPanelExplosionSFX: {fileID: 8300000, guid: 406abe6e803b244eca380af5865dc5cb,
+    type: 3}
+  Boss02RegainShield: {fileID: 8300000, guid: f7e42b56a3d966d4db9900e463104016, type: 3}
+  DoorSFX: {fileID: 8300000, guid: 55735ae51d1b57449a72f7c0df0aa44d, type: 3}
+  ObjectiveSFX: {fileID: 8300000, guid: 032d3087d7ef6f540903c9ddce14cf86, type: 3}
+  FailedObjectiveSFX: {fileID: 8300000, guid: 32a7fdaf10ce59c4fa56cd31d4a50902, type: 3}
+  gameOverSFX: {fileID: 8300000, guid: d03356185d4e41f4182b3e47be606432, type: 3}
+  winSFX: {fileID: 8300000, guid: 88907743bbc6611449dcec82cd3c053c, type: 3}
+  secretSwitchSFX: {fileID: 8300000, guid: 7298cdd19e7244a4f9a880e0058b5c8c, type: 3}
+  portalRoomSwitchSFX: {fileID: 8300000, guid: 053305631f13240d0a559a947fcefde4, type: 3}
